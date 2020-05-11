@@ -1,0 +1,15 @@
+t.string  "name" => 
+    t.string  "species" => ['type']
+    t.string  "breed" => ['breeds']['primary']
+    t.integer "age" => ['age']
+    t.boolean "fixed" => ['attributes']['spayed_neutered']
+    t.boolean "special_needs" => ['attributes']['special_needs']
+    t.boolean "good_with_dogs" => ['environment']['dogs']
+    t.boolean "good_with_cats" => ['environment']['cats']
+    t.boolean "good_with_kids" => ['environment']['children']
+    t.string  "location" => ['contact']['address']['state']
+    t.string  "size" => ['size']
+    t.string  "url" => url
+
+
+
